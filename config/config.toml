@@ -1,0 +1,13 @@
+[Logger]
+LogDir="./logs"
+FileName=""
+Level="debug"
+IsProd=false
+MaxSize=500 #单位MB
+MaxBackups=0 #旧文件最大数量 默认无限制
+MaxAge=0 #旧文件最大保存时间 默认无限制
+
+[http]
+Port=8080
+ReadTimeout=60 #读取超时时间,单位秒
+WriteTimeout=60 #写入超时时间,单位秒
